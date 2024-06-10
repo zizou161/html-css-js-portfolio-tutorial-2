@@ -338,7 +338,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.5rem;
   justify-content: space-around;
 }
 
@@ -430,3 +430,14 @@ footer {
 footer p {
   text-align: center;
 }
+ /* added by me */ 
+
+ div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  overflow-x: auto;
+  overflow-y: auto;
+  white-space: nowrap;
+}
+
+
